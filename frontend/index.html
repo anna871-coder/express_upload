@@ -2,14 +2,10 @@
   <script src="./pub/script.js"></script>
   <body>
     <form
-      ref="uploadForm"
       id="uploadForm"
-      action="http://localhost:8000/upload"
-      method="post"
-      enctype="multipart/form-data"
     >
-    <input type="text" id="username" name="username" />
-      <input type="file" name="sampleFile" />
+    <input type="file" id="userfile" />
+    <input type="text" id="username" />
       <input type="submit" value="Upload!" /></br>
      
     </form>
